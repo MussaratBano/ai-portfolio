@@ -4,7 +4,7 @@
 <span class="badge">Beginner Projects</span>
 <span class="badge">Open to Internships</span>
 
-I’m building AI projects step-by-step with clean documentation and practical results.
+I’m Learning AI Engineering and building projects to apply my skills in real-world scenarios. This portfolio showcases my journey, projects, and achievements in the field of AI and Machine Learning.
 
 <div class="hero-grid" markdown="1">
 
