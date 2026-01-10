@@ -20,7 +20,7 @@ I’m Learning AI Engineering and building projects to apply my skills in real-w
 
 <div class="hero-card" markdown="1">
 
-### 🧰 Skills Snapshot
+### 🧰 Skills 
 - Learning Python
 - ML basics (scikit-learn)
 - Data cleaning + visualization

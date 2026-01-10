@@ -7,33 +7,34 @@ theme:
   name: material
   language: en
 
-  # Branding (optional but looks premium)
   favicon: assets/brand/favicon.png
-  # logo: assets/brand/logo.png   # optional
+  # logo: assets/brand/logo.png
 
   font:
     text: Inter
     code: JetBrains Mono
 
   palette:
+    # Light mode
     - scheme: default
-      primary: navy
+      primary: indigo
       accent: pink
       toggle:
         icon: material/weather-night
-        name: Dark mode
+        name: Switch to dark mode
+
+    # Dark mode
     - scheme: slate
-      primary: navy 
+      primary: indigo
       accent: cyan
       toggle:
         icon: material/white-balance-sunny
-        name: Light mode
+        name: Switch to light mode
 
   icon:
     repo: fontawesome/brands/github
 
   features:
-    # Navigation UX (premium feel)
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -42,15 +43,15 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.footer
+    - navigation.indexes
 
-    # Reading experience
     - toc.follow
     - toc.integrate
 
-    # Search + content polish
     - search.suggest
     - search.highlight
     - search.share
+
     - content.code.copy
     - content.tooltips
 
