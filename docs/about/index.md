@@ -1,0 +1,1 @@
+> I’m a passionate Pure Mathematics graduate and research student at Bahauddin Zakariya  University, Multan, with a keen interest in Artificial Intelligence and Machine Learning. My academic journey has equipped me with a solid foundation in mathematical concepts, which I am eager to apply in the field of AI.

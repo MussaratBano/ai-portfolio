@@ -1,0 +1,115 @@
+site_name: "Mussarat — AI Engineering Student"
+site_description: "AI Engineering Student Portfolio | Projects • Skills • Achievements"
+site_author: "Mussarat"
+site_url: "http://127.0.0.1:8501/"
+
+theme:
+  name: material
+  language: en
+
+  # Branding (optional but looks premium)
+  favicon: assets/brand/favicon.png
+  # logo: assets/brand/logo.png   # optional
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  palette:
+    - scheme: default
+      primary: navy
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: navy 
+      accent: cyan
+      toggle:
+        icon: material/white-balance-sunny
+        name: Light mode
+
+  icon:
+    repo: fontawesome/brands/github
+
+  features:
+    # Navigation UX (premium feel)
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+
+    # Reading experience
+    - toc.follow
+    - toc.integrate
+
+    # Search + content polish
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+
+nav:
+  - Home: index.md
+  - About:
+      - About Me: about/index.md
+      - Skills: about/skills.md
+  - Projects:
+      - Projects Overview: projects/index.md
+      - Project 01: projects/project-01.md
+      - Project 02: projects/project-02.md
+      - Mini Projects: projects/mini-projects.md
+  - Achievements:
+      - Overview: achievements/index.md
+      - Certificates: achievements/certificates.md
+  - Blogs: blogs.md
+  - Contact: contact.md
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+      title: On this page
+
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MussaratBano
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mussarat-bano-62208a395/
+      name: LinkedIn
+    - icon: material/email
+      link: mailto:you@email.com
+      name: Email
+
+extra_css:
+  - assets/styles/extra.css
+
+use_directory_urls: true
