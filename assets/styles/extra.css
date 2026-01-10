@@ -30,3 +30,29 @@
   transform:translateY(-2px);
   box-shadow:0 14px 35px rgba(0,0,0,.14);
 }
+/* Professional dark footer (works in both light/dark modes) */
+.md-footer {
+  background-color: #0F172A; /* charcoal/navy */
+}
+
+.md-footer-meta {
+  background-color: #0B1220; /* slightly darker strip */
+}
+
+/* Footer text + icons */
+.md-footer, .md-footer-meta {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.md-footer a, .md-footer-meta a {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.md-footer a:hover, .md-footer-meta a:hover {
+  color: #A5B4FC; /* soft indigo highlight */
+}
+
+/* Optional: thin brand line on top of footer */
+.md-footer {
+  border-top: 1px solid rgba(165, 180, 252, 0.35);
+}
