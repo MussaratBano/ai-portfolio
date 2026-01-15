@@ -65,11 +65,11 @@ nav:
       - Project 01: projects/project-01.md
       - Project 02: projects/project-02.md
       - Mini Projects: projects/mini-projects.md
+  - Tasks: tasks/tasks.md
   - Achievements:
       - Overview: achievements/index.md
       - Certificates: achievements/certificates.md
   - Blogs: blogs.md
-  - Tasks: tasks/tasks.md
   - Contact: contact.md
 
 plugins:
