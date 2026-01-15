@@ -69,7 +69,7 @@ nav:
       - Overview: achievements/index.md
       - Certificates: achievements/certificates.md
   - Blogs: blogs.md
-  - Tasks: tasks.md
+  - Tasks: tasks/tasks.md
   - Contact: contact.md
 
 plugins:
