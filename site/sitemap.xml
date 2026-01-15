@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://127.0.0.1:8501/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/blogs/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/contact/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8501/tasks/</loc>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/about/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/about/skills/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/achievements/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/achievements/certificates/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/projects/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/projects/mini-projects/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/projects/project-01/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
     <url>
          <loc>http://127.0.0.1:8501/projects/project-02/</loc>
-         <lastmod>2026-01-10</lastmod>
+         <lastmod>2026-01-15</lastmod>
     </url>
 </urlset>
